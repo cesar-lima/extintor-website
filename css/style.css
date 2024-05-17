@@ -63,10 +63,18 @@ header{
     text-align: center;
 }
 
-#tipos_de_materiais ul{
-    list-style: none;
+#tipos_de_materiais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    flex-wrap: wrap;
 }
 
-#tipos_de_materiais ul li{
-    display: inline;
+.card{
+    width: 28em;
+    min-width: 28em;
+
+    height: 50em;
+    max-height: 50em;
 }
